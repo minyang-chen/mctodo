@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "mctodo"
+version = "0.1.1"
+description = ""
+authors = ["minyang chen <mychen76@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.scripts]
+mctodo = "mctodo.cli:app"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+typing-extensions = "^4.8.0"
+rich = "^13.6.0"
+typer = {extras = ["all"], version = "^0.9.0"}
+
+[tool.poetry.dev-dependencies]
+black = "^23.10.1"
+pytest = "^7.4.3"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
