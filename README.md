@@ -120,13 +120,13 @@ Step 4: Submit a PR with your changes! 🚀
 
 ## Tool Stack
 
-Poetry is a tool for dependency management and packaging in Python.
+- Poetry is a tool for dependency management and packaging in Python.
 https://python-poetry.org/docs/
 
-Typer is a library for building CLI applications that users will love using and developers will love creating. 
+- Typer is a library for building CLI applications that users will love using and developers will love creating. 
 https://github.com/tiangolo/typer
 
-Rich is a Python library for rich text and beautiful formatting in the terminal.
+- Rich is a Python library for rich text and beautiful formatting in the terminal.
 https://github.com/Textualize/rich
 
 
